@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A57631920DC1C1500080F35 /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A57631820DC1C1500080F35 /* MyUtils.swift */; };
+		5A62526F20DAF51200402859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A62526E20DAF51200402859 /* AppDelegate.swift */; };
+		5A62527120DAF51300402859 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5A62527020DAF51300402859 /* GameScene.sks */; };
+		5A62527320DAF51300402859 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5A62527220DAF51300402859 /* Actions.sks */; };
+		5A62527520DAF51300402859 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A62527420DAF51300402859 /* GameScene.swift */; };
+		5A62527720DAF51300402859 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A62527620DAF51300402859 /* GameViewController.swift */; };
+		5A62527A20DAF51300402859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A62527820DAF51300402859 /* Main.storyboard */; };
+		5A62527C20DAF52500402859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A62527B20DAF52500402859 /* Assets.xcassets */; };
+		5A62527F20DAF52500402859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A62527D20DAF52500402859 /* LaunchScreen.storyboard */; };
+		5A62528A20DAF52500402859 /* Through_Stick_or_ThinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A62528920DAF52500402859 /* Through_Stick_or_ThinTests.swift */; };
+		5A62529520DAF52500402859 /* Through_Stick_or_ThinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A62529420DAF52500402859 /* Through_Stick_or_ThinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A62528620DAF52500402859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A62526320DAF51200402859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A62526A20DAF51200402859;
+			remoteInfo = "Through Stick or Thin";
+		};
+		5A62529120DAF52500402859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A62526320DAF51200402859 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A62526A20DAF51200402859;
+			remoteInfo = "Through Stick or Thin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A57631820DC1C1500080F35 /* MyUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUtils.swift; sourceTree = "<group>"; };
+		5A62526B20DAF51200402859 /* Through Stick or Thin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Through Stick or Thin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A62526E20DAF51200402859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A62527020DAF51300402859 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		5A62527220DAF51300402859 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		5A62527420DAF51300402859 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5A62527620DAF51300402859 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5A62527920DAF51300402859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A62527B20DAF52500402859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A62527E20DAF52500402859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A62528020DAF52500402859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A62528520DAF52500402859 /* Through Stick or ThinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Through Stick or ThinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A62528920DAF52500402859 /* Through_Stick_or_ThinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Through_Stick_or_ThinTests.swift; sourceTree = "<group>"; };
+		5A62528B20DAF52500402859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A62529020DAF52500402859 /* Through Stick or ThinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Through Stick or ThinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A62529420DAF52500402859 /* Through_Stick_or_ThinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Through_Stick_or_ThinUITests.swift; sourceTree = "<group>"; };
+		5A62529620DAF52500402859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A62526820DAF51200402859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A62528220DAF52500402859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A62528D20DAF52500402859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A62526220DAF51200402859 = {
+			isa = PBXGroup;
+			children = (
+				5A62526D20DAF51200402859 /* Through Stick or Thin */,
+				5A62528820DAF52500402859 /* Through Stick or ThinTests */,
+				5A62529320DAF52500402859 /* Through Stick or ThinUITests */,
+				5A62526C20DAF51200402859 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A62526C20DAF51200402859 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A62526B20DAF51200402859 /* Through Stick or Thin.app */,
+				5A62528520DAF52500402859 /* Through Stick or ThinTests.xctest */,
+				5A62529020DAF52500402859 /* Through Stick or ThinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A62526D20DAF51200402859 /* Through Stick or Thin */ = {
+			isa = PBXGroup;
+			children = (
+				5A62526E20DAF51200402859 /* AppDelegate.swift */,
+				5A62527020DAF51300402859 /* GameScene.sks */,
+				5A62527220DAF51300402859 /* Actions.sks */,
+				5A62527420DAF51300402859 /* GameScene.swift */,
+				5A62527620DAF51300402859 /* GameViewController.swift */,
+				5A62527820DAF51300402859 /* Main.storyboard */,
+				5A62527B20DAF52500402859 /* Assets.xcassets */,
+				5A62527D20DAF52500402859 /* LaunchScreen.storyboard */,
+				5A62528020DAF52500402859 /* Info.plist */,
+				5A57631820DC1C1500080F35 /* MyUtils.swift */,
+			);
+			path = "Through Stick or Thin";
+			sourceTree = "<group>";
+		};
+		5A62528820DAF52500402859 /* Through Stick or ThinTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A62528920DAF52500402859 /* Through_Stick_or_ThinTests.swift */,
+				5A62528B20DAF52500402859 /* Info.plist */,
+			);
+			path = "Through Stick or ThinTests";
+			sourceTree = "<group>";
+		};
+		5A62529320DAF52500402859 /* Through Stick or ThinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A62529420DAF52500402859 /* Through_Stick_or_ThinUITests.swift */,
+				5A62529620DAF52500402859 /* Info.plist */,
+			);
+			path = "Through Stick or ThinUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A62526A20DAF51200402859 /* Through Stick or Thin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A62529920DAF52500402859 /* Build configuration list for PBXNativeTarget "Through Stick or Thin" */;
+			buildPhases = (
+				5A62526720DAF51200402859 /* Sources */,
+				5A62526820DAF51200402859 /* Frameworks */,
+				5A62526920DAF51200402859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Through Stick or Thin";
+			productName = "Through Stick or Thin";
+			productReference = 5A62526B20DAF51200402859 /* Through Stick or Thin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A62528420DAF52500402859 /* Through Stick or ThinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A62529C20DAF52500402859 /* Build configuration list for PBXNativeTarget "Through Stick or ThinTests" */;
+			buildPhases = (
+				5A62528120DAF52500402859 /* Sources */,
+				5A62528220DAF52500402859 /* Frameworks */,
+				5A62528320DAF52500402859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A62528720DAF52500402859 /* PBXTargetDependency */,
+			);
+			name = "Through Stick or ThinTests";
+			productName = "Through Stick or ThinTests";
+			productReference = 5A62528520DAF52500402859 /* Through Stick or ThinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A62528F20DAF52500402859 /* Through Stick or ThinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A62529F20DAF52500402859 /* Build configuration list for PBXNativeTarget "Through Stick or ThinUITests" */;
+			buildPhases = (
+				5A62528C20DAF52500402859 /* Sources */,
+				5A62528D20DAF52500402859 /* Frameworks */,
+				5A62528E20DAF52500402859 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A62529220DAF52500402859 /* PBXTargetDependency */,
+			);
+			name = "Through Stick or ThinUITests";
+			productName = "Through Stick or ThinUITests";
+			productReference = 5A62529020DAF52500402859 /* Through Stick or ThinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A62526320DAF51200402859 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "DaS Kove";
+				TargetAttributes = {
+					5A62526A20DAF51200402859 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					5A62528420DAF52500402859 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 5A62526A20DAF51200402859;
+					};
+					5A62528F20DAF52500402859 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 5A62526A20DAF51200402859;
+					};
+				};
+			};
+			buildConfigurationList = 5A62526620DAF51200402859 /* Build configuration list for PBXProject "Through Stick or Thin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A62526220DAF51200402859;
+			productRefGroup = 5A62526C20DAF51200402859 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A62526A20DAF51200402859 /* Through Stick or Thin */,
+				5A62528420DAF52500402859 /* Through Stick or ThinTests */,
+				5A62528F20DAF52500402859 /* Through Stick or ThinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A62526920DAF51200402859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A62527A20DAF51300402859 /* Main.storyboard in Resources */,
+				5A62527120DAF51300402859 /* GameScene.sks in Resources */,
+				5A62527C20DAF52500402859 /* Assets.xcassets in Resources */,
+				5A62527F20DAF52500402859 /* LaunchScreen.storyboard in Resources */,
+				5A62527320DAF51300402859 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A62528320DAF52500402859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A62528E20DAF52500402859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A62526720DAF51200402859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A62527520DAF51300402859 /* GameScene.swift in Sources */,
+				5A62527720DAF51300402859 /* GameViewController.swift in Sources */,
+				5A62526F20DAF51200402859 /* AppDelegate.swift in Sources */,
+				5A57631920DC1C1500080F35 /* MyUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A62528120DAF52500402859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A62528A20DAF52500402859 /* Through_Stick_or_ThinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A62528C20DAF52500402859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A62529520DAF52500402859 /* Through_Stick_or_ThinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A62528720DAF52500402859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A62526A20DAF51200402859 /* Through Stick or Thin */;
+			targetProxy = 5A62528620DAF52500402859 /* PBXContainerItemProxy */;
+		};
+		5A62529220DAF52500402859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A62526A20DAF51200402859 /* Through Stick or Thin */;
+			targetProxy = 5A62529120DAF52500402859 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A62527820DAF51300402859 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A62527920DAF51300402859 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A62527D20DAF52500402859 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A62527E20DAF52500402859 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A62529720DAF52500402859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A62529820DAF52500402859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A62529A20DAF52500402859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDK2F29458;
+				INFOPLIST_FILE = "Through Stick or Thin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DaSKovE.StickorThin.Through-Stick-or-Thin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A62529B20DAF52500402859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDK2F29458;
+				INFOPLIST_FILE = "Through Stick or Thin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DaSKovE.StickorThin.Through-Stick-or-Thin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A62529D20DAF52500402859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDK2F29458;
+				INFOPLIST_FILE = "Through Stick or ThinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DaSKovE.StickorThin.Through-Stick-or-ThinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Through Stick or Thin.app/Through Stick or Thin";
+			};
+			name = Debug;
+		};
+		5A62529E20DAF52500402859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDK2F29458;
+				INFOPLIST_FILE = "Through Stick or ThinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DaSKovE.StickorThin.Through-Stick-or-ThinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Through Stick or Thin.app/Through Stick or Thin";
+			};
+			name = Release;
+		};
+		5A6252A020DAF52500402859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDK2F29458;
+				INFOPLIST_FILE = "Through Stick or ThinUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DaSKovE.StickorThin.Through-Stick-or-ThinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Through Stick or Thin";
+			};
+			name = Debug;
+		};
+		5A6252A120DAF52500402859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDK2F29458;
+				INFOPLIST_FILE = "Through Stick or ThinUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DaSKovE.StickorThin.Through-Stick-or-ThinUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Through Stick or Thin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A62526620DAF51200402859 /* Build configuration list for PBXProject "Through Stick or Thin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A62529720DAF52500402859 /* Debug */,
+				5A62529820DAF52500402859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A62529920DAF52500402859 /* Build configuration list for PBXNativeTarget "Through Stick or Thin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A62529A20DAF52500402859 /* Debug */,
+				5A62529B20DAF52500402859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A62529C20DAF52500402859 /* Build configuration list for PBXNativeTarget "Through Stick or ThinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A62529D20DAF52500402859 /* Debug */,
+				5A62529E20DAF52500402859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A62529F20DAF52500402859 /* Build configuration list for PBXNativeTarget "Through Stick or ThinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6252A020DAF52500402859 /* Debug */,
+				5A6252A120DAF52500402859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A62526320DAF51200402859 /* Project object */;
+}
